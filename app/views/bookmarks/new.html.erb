@@ -3,3 +3,7 @@
     <%= f.association :movie %>
     <%= f.submit %>
   <% end %>
+
+<h2>Congrats your list is added</h2>
+<%= link_to "return to create", new_list_path %>
+<%= link_to "return to list", list_path %>
